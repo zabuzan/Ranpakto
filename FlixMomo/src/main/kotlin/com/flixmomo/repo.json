@@ -1,0 +1,18 @@
+{
+  "name": "Ranpakto Extensions",
+  "description": "Custom CloudStream extensions",
+  "manifestVersion": 1,
+  "plugins": [
+    {
+      "name": "FlixMomo",
+      "description": "Movies & TV from FlixMomo",
+      "providerClassName": "FlixMomoProvider",
+      "packageName": "com.flixmomo",
+      "language": "en",
+      "version": 1,
+      "iconUrl": "https://flixmomo.org/favicon.ico",
+      "sourceUrl": "https://github.com/zabuzan/Ranpakto",
+      "filePath": "FlixMomo/src/main/kotlin/com/flixmomo/FlixMomoProvider.kt"
+    }
+  ]
+}
